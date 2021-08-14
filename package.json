@@ -1,0 +1,15 @@
+{
+  "name": "Danny-Bot",
+  "version": "1.0.0",
+  "description": "This bot will pong when i ping",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": "git@github.com:Flaremaker/Danny-Bot.git",
+  "author": "Laraya Jonassaint <Flaremaker24@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^13.1.0"
+  }
+}
