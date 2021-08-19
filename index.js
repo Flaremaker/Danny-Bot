@@ -3,8 +3,8 @@ require('dotenv').config();
 const { Client, Intents } = require('discord.js');
 
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
-
-/*client.once('ready', () => {
+//Commented out
+/* client.once('ready', () => {
 	console.log('Ready!');
     client.api.applications(process.env.CLIENT_ID).guilds(process.env.GUILD_ID).commands.post({data: {
         name: 'ping',
